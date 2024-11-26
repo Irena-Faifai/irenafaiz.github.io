@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    height: 100px; 
+}
+
+main {
+    display: flex;
+    margin: 60px;
+    width: 90%;
+    max-width: 1300px;
+    gap: 30px; 
+}
+
+.cart {
+    flex: 2;
+}
+
+.cart h1 {
+    font-size: 28px; 
+    color: #f06;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 20px; 
+    border-bottom: 1px solid #ddd;
+    font-size: 16px; 
+}
+
+table th {
+    color: #f06;
+    text-transform: uppercase;
+}
+
+table img {
+    width: 90px; 
+    height: 90px;
+    border-radius: 5px;
+    margin-right: 15px; 
+}
+
+table td span {
+    vertical-align: middle;
+    font-size: 16px; 
+}
+
+button {
+    border: none;
+    padding: 8px 12px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; 
+}
+
+.decrease, .increase {
+    background-color: #f06;
+    color: white;
+    font-size: 15px;
+}
+
+.remove {
+    background: none;
+    color: #f06;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.order-summary {
+    flex: 1;
+    background-color: #ffe4b2;
+    padding: 25px;
+    border-radius: 15px; 
+    font-size: 18px; 
+}
+
+.order-summary h2 {
+    color: #f06;
+    margin-bottom: 35px;
+}
+
+.summary-details {
+    margin-bottom: 80px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.promo input {
+    flex: 1;
+    padding: 8px; 
+    font-size: 14px; 
+}
+
+.promo button {
+    background-color: #f06;
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px; 
+}
+
+.checkout {
+    width: 100%;
+    padding: 16px; 
+    background-color: #f06;
+    color: white;
+    border-radius: 8px; 
+    text-align: center;
+    font-size: 18px; 
+}
+
+
+.navbar {
+  background-color: #f2a0cd;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #f2ca7e;
+  color: white;
+}
+
+
+.navbar a.active {
+  background-color: #f2ca7e;
+  color: white;
+}
